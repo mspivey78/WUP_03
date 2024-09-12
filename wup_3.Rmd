@@ -28,6 +28,11 @@ boxplot(alcohol~Seat,data=davisdata)
 The boxes are not disjointed. The back box, the median is higher than the people at the front and the middle box.  
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The front and middle seat have around the same number of people while the back has about twice as many. This summary shows that shows that while the middle seat had a max of 35 drinks the back seat had a max of 55 drinks which is almost twice as many as the front and middle seat. 
 
 ## Inferential Tests
 
