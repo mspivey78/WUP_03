@@ -19,21 +19,13 @@ davisdata <- read.csv(file="UCDavis.csv")
 
 ## Now with ggplot - first select the basic data
 
-```{r}
-basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
-```
+
 ## Now add in boxplot
-
 ```{r}
-basicCN + geom_boxplot()
+boxplot(alcohol~Seat,data=davisdata)
 ```
-  
-  
-### get fancy  
 
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
+The boxes are not disjointed. The back box, the median is higher than the people at the front and the middle box.  
 
 ## Numerical Summarys 
 
