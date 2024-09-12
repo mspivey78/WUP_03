@@ -51,4 +51,4 @@ The front ad the back are different. The middle and the front are not different 
 
 ## Conclusions
 
-
+I did a boxpolt that showed the visible results and differences of how much each seat drinks. Then I did a summary of the numerical results which showed that the back seat almost drank twice as much as the middle and front seats. I then ran an inferential test which gave me a probability between 0 and 1, when the results are between 0 and 1 you have to investigate the results further and run another test. After investigating further I plotted another model that again showed how different the back seat was. 
